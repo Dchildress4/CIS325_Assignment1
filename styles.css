@@ -1,0 +1,14 @@
+body {
+    background-color: #eaa5f8;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1{
+    color: darkorchid
+}
+
+#js-test {
+    color: red;
+    font-weight: bold;
+}
