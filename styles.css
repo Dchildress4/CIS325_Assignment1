@@ -5,10 +5,11 @@ body {
 }
 
 h1{
-    color: darkorchid
+    color: darkorchid;
 }
 
 #js-test {
-    color: red;
+    color: green;
     font-weight: bold;
+
 }
