@@ -14,6 +14,8 @@ if (button && input && dynamic) {
             ul.appendChild(li);
             input.value = "";
         }
+    }
 };
+
 
 
