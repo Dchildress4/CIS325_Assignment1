@@ -1,13 +1,20 @@
+<link rel="stylesheet" href="styles.css">
+
 var button = document.getElementById("addBtn");
 var input = document.getElementById("textInput");
 var dynamic = document.getElementById("dynamic");
 
-var ul = document.createElement("ul");
-dynamic.appendChild(ul);
+if (button && input && dynamic) {
+    var ul = document.getElementById("myList");
+    
+    button.onclick = function () {
+        var text = input.value.trim();
 
-button.onclick = function () {
-    var li = document.createElement("li");
-    li.textContent = input.value;
-    ul.appendChild(li);
-    input.value = "";
+        if (text != "") {
+            var li = document.createElement("li");
+            li.textContent = text;
+            ul.appendChild(li);
+            input.value = "";
+        }
 };
+
