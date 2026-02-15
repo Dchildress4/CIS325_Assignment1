@@ -1,5 +1,3 @@
-<link rel="stylesheet" href="styles.css">
-
 var button = document.getElementById("addBtn");
 var input = document.getElementById("textInput");
 var dynamic = document.getElementById("dynamic");
@@ -17,4 +15,5 @@ if (button && input && dynamic) {
             input.value = "";
         }
 };
+
 
